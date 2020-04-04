@@ -1,0 +1,44 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+.nav-link{
+    background: #004085;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    &:hover{
+        background: #BDBDBD;
+    }
+}
+.timer{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.breadcrumb{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: inherit;
+    padding: 0;
+    font-style: italic;
+}
+
+.answer{
+    font-size: 25px;
+    &.correct{ color: green; }
+    &.incorrect{ color: red; }
+}
+
+.results{
+    font-size: 25px;
+}
+.alert .alert-danger{
+    background: #ffe5e5;
+}
+.btn.btn-default{
+    background: #e8e8e8;
+    color: black;
+}
