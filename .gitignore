@@ -59,3 +59,4 @@ public/*
 !.htaccess
 !.env.dev
 !.env.prod
+.now
